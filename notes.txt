@@ -1,0 +1,5 @@
+take file name and location from user. 
+check files is present or not. 
+if present and file size is 0 byte then remove it.
+if not present then create it.
+-----------------------------------------------
