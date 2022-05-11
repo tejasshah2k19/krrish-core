@@ -3,3 +3,8 @@ check files is present or not.
 if present and file size is 0 byte then remove it.
 if not present then create it.
 -----------------------------------------------
+ask directory name to user , list out all files and folders name from that directory.
+1)count how many total files and directory present 
+2)count total number of java file present in directory 
+-----------------------------------------------
+

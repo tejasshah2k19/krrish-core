@@ -72,9 +72,42 @@ public class FileDemo {
 
 	}
 
+	static void createFolder() throws IOException {
+		System.out.println("Enter folder path");
+		String path = scr.next();
+		System.out.println("Enter folder name");
+		String folderName = scr.next();
+		File f = new File(path, folderName);
+
+		f.mkdir();
+		// we can use exists delete length
+		// for delete folder must be empty
+
+		System.out.println("Enter file name");
+		String fileName = scr.next();
+
+		File f1 = new File(f, fileName);
+		f1.createNewFile();
+
+	}
+
+	static void listAllFilesFromFolder() {
+		System.out.println("Enter directory that you want to list");
+		String path = scr.nextLine();
+
+		File f2 = new File(path);
+
+		String listOfFiles[] = f2.list();
+		for (String s : listOfFiles) {
+			System.out.println(s);
+		}
+	}
+
 	public static void main(String[] args) throws IOException {
 //		takePathAndCreateFile();
-		checkFilePresent();
+//		checkFilePresent();
 //		checkFilePresentAndRemove();
+//		createFolder();
+		listAllFilesFromFolder();
 	}
 }
