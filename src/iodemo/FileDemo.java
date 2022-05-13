@@ -69,7 +69,6 @@ public class FileDemo {
 		} else {
 			System.out.println("File not Present");
 		}
-
 	}
 
 	static void createFolder() throws IOException {

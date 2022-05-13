@@ -8,3 +8,21 @@ ask directory name to user , list out all files and folders name from that direc
 2)count total number of java file present in directory 
 -----------------------------------------------
 
+to read and write inside file we have two option
+
+			1) byte 					
+ InputStream[r]      OutputStream[w] 
+ FileInputStream	FileOutputStream 
+ 
+ 
+ 			2) character 
+ Reader[r]				Writer[w]
+ FileReader				FileWriter 
+ 
+ 
+Take name from user and store into names.txt 
+ 
+ 
+ 
+ 
+  
