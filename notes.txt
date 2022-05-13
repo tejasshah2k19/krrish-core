@@ -21,8 +21,12 @@ to read and write inside file we have two option
  
  
 Take name from user and store into names.txt 
- 
- 
+
+create 1 file country.txt , input three country name in country.txt 
+now read country name from country.txt if country name starts with 'a' 'e' 'i' 'o' 'u' then write that
+country name inside special country name.txt. 
+
+-----------------------------------------------
  
  
   
