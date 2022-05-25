@@ -44,6 +44,26 @@ even.txt
 
 
 -----------------------------------------------
+nio - new io - non blocking io 
+
+Files 
+Paths 
+Path 
+
+
+*)take file name from user and create that file in 
+c drive temp folder.
+*) take file name from user copy content of that file into
+	backup.txt file 
+	
+
+
+
+
+
+
+
+ 
  
  
   
