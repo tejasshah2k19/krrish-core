@@ -37,7 +37,11 @@ class Movie extends Thread {
 }
 
 
-class Cut implements Runnable{
+strictfp class Cut implements Runnable{
+//	strictfp float f = 90.45f;
+	strictfp void div() {
+		
+	}
 	public void run() {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println("cut => " + i);
