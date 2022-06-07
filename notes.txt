@@ -56,6 +56,29 @@ c drive temp folder.
 *) take file name from user copy content of that file into
 	backup.txt file 
 	
+---------------------------------------------------------------------------
+
+Executor
+Executors
+ExecutorService 
+ThreadFactory* 
+1) FixedThreadPool - 5
+2) CachedThreadPool - 2--n 
+3) SingleThreadPool - 1 
+4) ScheduleThreadPool 
+
+
+
+class : ThreadPlayer
+
+player can play game , player has 3 life. 
+you have to create Game class which initialize player 
+
+also we need to create two thread 1 is used to kill player  so life of player decrease. 
+
+2nd thread will check gameover status if life == 0 and 
+player kill then need to display game over. 
+
 
 
 
