@@ -76,14 +76,29 @@ you have to create Game class which initialize player
 
 also we need to create two thread 1 is used to kill player  so life of player decrease. 
 
-2nd thread will check gameover status if life == 0 and 
+2nd thread will check game over status if life == 0 and 
 player kill then need to display game over. 
 
 
 
+conc --> thread pool --> 
+			execute() - void 
+			submit() - Future 
+			
 
-
-
+-----
+using callable :-
+	we have two thread 1 from ThreadArraySum { int a[] => 5}
+					   2 from ThreadArrayListSum {ArrayList v => 5 } 
+				ThreadArraySum having array of five numbers 
+				ThreadVectorSum having ArrayList of five numbers 
+				they both find sum of five numbers. 
+				now you have to add ThreadArraySum + ThreadArrayListSum 
+				
+				no join no wait no synchronized 
+				
+				
+				
 
 
  
