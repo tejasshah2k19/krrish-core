@@ -99,6 +99,32 @@ using callable :-
 				
 				
 				
+--------------------------------------------------
+1 to 100 sum -> 1 second 
+5 time repeat  => 1 second 
+
+1 to 1000 sum -> 10 second 
+
+1 to 500 -> 5 second 
+501 to 1000 -> 5 second 
+
+process -> split --> execute -> conc 
+fork [ split ]
+join [ merge ] 
+
+----------------------
+
+inner class 
+
+1) class inside class - inner class 
+2) class inside method - method local inner class
+3) static class inside class - nested class 
+4) class - no name - Anonymous inner class  
+
+
+
+
+
 
 
  
