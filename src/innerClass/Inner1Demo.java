@@ -14,7 +14,7 @@ public class Inner1Demo {
 		System.out.println("***************");
 		StaticOuter.SInner si = new StaticOuter.SInner();
 		si.myInner();
-	}
+	} 
 }
 
 class Outer {
