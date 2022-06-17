@@ -122,6 +122,84 @@ inner class
 4) class - no name - Anonymous inner class  
 
 
+--------------------------------------------------------------------
+100 num 
+array 
+
+int a[] = new int[100]; //100 
+
+increase 
+
+descrease 
+-------------
+100 users --> User 
+
+array of objects 
+increase 
+
+descrease 
+
+
+amazon 
+=> led tv -> 200tvs-> product 
+
+=> iphone 13 -> 25 iphone -> product  
+
+=> tv -> 1000's -> product 
+-------------------------------------------------------------------------------------
+collection 
+
+objects --> dynamic 
+10
+150
+130
+
+
+collection --topics 
+
+interface classes 
+
+
+Collection - interface 
+Collections - class 
+Arrays - class : sort binarySearch  
+
+
+					Collection(I)
+
+List(I)				Queue(I)				Set(I)          |        Map(I)
+ArrayList(C)		PriorityQueue(C)		HashSet(C)				HashMap(C)
+Vector	(C)									TreeSet(C)				TreeMap(C) 
+
+
+
+
+1	unique 
+2	duplicate
+3	sorted 
+4	unsorted 
+5	ordered 
+6	un-ordered 
+
+
+
+
+ArrayList 
+
+1) take 5 numbers from user and store into ArrayList - 
+	1.1) find sum of 5 numbers 
+	1.2) find max num from 5 numbers 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
