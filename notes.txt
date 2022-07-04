@@ -226,9 +226,21 @@ e.g
 5 exit :) 
 
 
+-------------------------------------
+Map -> HashMap 
+	   TreeMap 
 
+	key : value 
+	name : ram 
+	
+	product1:{
+		name:tv 55 sony, 
+		brand:sony ,
+		price:1500
+	}
 
-
+	key always unique , value duplicate. 
+	
 
 
 
