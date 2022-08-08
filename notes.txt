@@ -242,6 +242,92 @@ Map -> HashMap
 	key always unique , value duplicate. 
 	
 
+what is the difference between ArrayList and HashSet?
+
+
+1) Take 5 number from user and store into array list,
+now read numbers from array list and store into HashSet. 
+
+2) 
+
+------------------------------------------------------------------------
+java 8
+io->
+
+collections -> 
+
+java.util.stream 
+
+	1) stream will not store anything, it just perform your operation 
+	   pipeline
+	   
+	2) functional programming 
+	
+	3) lazy load 
+	
+	4) you can visit your stream data only once      
+
+
+Basic ->  travel , search , filter, print , convert etc 
+
+interface - method 
+
+	boolean allMatch(Predicate<?> predicate) -> it will returns all the 
+									 	elements which math the predicate. 
+									 	
+	boolean anyMatch(Predicate<?> predicate) -> it will returns any element who 
+												math the predicate. 
+												 
+	
+	collect(Collector) -> it will perform operation on given data set using Collector. 
+						  collector is an encapsulated function used as argument for collect. 
+						  [Supplier,BiConsumer]   
+
+	concat() 
+	
+	count()
+	
+	distinct()
+	
+	findAny() -> element return 
+	findFirst() 
+    flatMap() -> stream -> map 
+    
+    forEach()
+    forEachOrdered()
+    
+    iterate()
+    
+    limit()
+    
+    map()
+    mapToInt()
+    mapToDouble()
+    mapToLong()
+    max()
+    min() 
+    
+    peek()
+    
+    reduce()
+    skip()
+    sorted()
+    toArray()
+    
+----------------------------------
+    
+stream api java 8 , it is used to process collections of objects.
+	map()
+				List num  =  Arrays.asList(1,2,3,4,5);
+				List sqr = num.stream().map(n->n*n).collect(Collectors.toList());			
+	
+	filter()
+				List num  =  Arrays.asList(1,2,3,4,5);
+				List odd  =  num.stream().filter(n->n%2!=0).collect(Collectors.toList());
+	sorted()
+				List num  =  Arrays.asList(1,2,3,4,5);
+				List sortedNum = num.stream().sorted().collect(Collectors.toList());
+					
 
 
 
@@ -252,8 +338,8 @@ Map -> HashMap
 
 
 
-
- 
+0    
+    
  
  
   
