@@ -338,6 +338,9 @@ stream api java 8 , it is used to process collections of objects.
 					result of the operation performed on stream.
 	forEach() -> 
 	                iterate all elements then you can perform an operation.
+	                
+	                
+	                
 	
  
   
