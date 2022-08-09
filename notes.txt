@@ -327,19 +327,17 @@ stream api java 8 , it is used to process collections of objects.
 	sorted()
 				List num  =  Arrays.asList(1,2,3,4,5);
 				List sortedNum = num.stream().sorted().collect(Collectors.toList());
+				Set  sortedNum   = num.stream().sorted().collect(Collectors.toSet()); 
 					
 
-
-
-
-
-
-
-
-
-
-0    
-    
- 
+	stream() -> collection -> stream 
+					
+	
+	collect() ->  
+					this method is used to return the 
+					result of the operation performed on stream.
+	forEach() -> 
+	                iterate all elements then you can perform an operation.
+	
  
   
