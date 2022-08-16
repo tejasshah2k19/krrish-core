@@ -340,7 +340,39 @@ stream api java 8 , it is used to process collections of objects.
 	                iterate all elements then you can perform an operation.
 	                
 	                
+-------------------------------------------------------------------------------------
+lambda -> jdk 8
+
 	                
-	
+block of code 
+    take argument
+        return value 
+        
+        
+  method : name 
+  
+  
+  ------------------------------------------------------------------------------
+  1) Consumer  - consume accept(T)  
+  2) Predicate - condition 
+  3) Function
+  4) Supplier
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
  
   

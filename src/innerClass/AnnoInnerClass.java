@@ -15,6 +15,14 @@ public class AnnoInnerClass {
 		MyRunnable m = new MyRunnable();
 		Thread t2 = new Thread(m);
 		t2.start();
+
+		Runnable x = () -> {
+
+		};
+
+		new Thread(() -> {
+			System.out.println("hi..");
+		}).start();
 	}
 }
 

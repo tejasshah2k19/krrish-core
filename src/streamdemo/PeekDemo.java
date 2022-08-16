@@ -18,6 +18,7 @@ public class PeekDemo {
 		list1.stream().filter(x -> x.length() > 4).forEach(x -> System.out.println(x.toUpperCase()));
 
 		// print all string in uppercase who's length is > 4 and store into anoter list
+		System.out.println("***********");
 		List<String> strUpper4 = list1.stream().filter(x -> x.length() > 4)
 				.peek(x -> System.out.println(x.toUpperCase()))
 				.map(x->x.toUpperCase())
